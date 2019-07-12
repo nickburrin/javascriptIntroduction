@@ -1,2 +1,2 @@
 # This is the ReadMe
-Based on FrontEndMasters Getting Started with Favascript v2
+Based on FrontEndMasters Getting Started with Javascript v2
