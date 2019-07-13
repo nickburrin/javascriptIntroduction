@@ -1,10 +1,12 @@
-function Workshop(teacher) {
-    this.teacher = teacher;
-};
+class Workshop {
+    constructor(teacher){
+        this.teacher = teacher;   
+    };
 
-Workshop.prototype.ask = function(question){
-    console.log(this.teacher, question);
-}
+    ask(question) {
+        console.log(this.teacher, question);
+    }
+};
 
 var deepJS = new Workshop("Kyle");
 var reactJS = new Workshop("Suzy");
